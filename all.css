@@ -57,24 +57,30 @@ h1{
 .content ul{
     display: flex;
 }
-.content img{
-        
+.content li{
     width: 33vh;
-    margin:5px 0.25vh 5px;
+}
+.content img{        
+    width: 33vh;
+    margin:0 0.25vh 0;
     aspect-ratio: 16:9;
     
 }
 @media(max-width:768px){
-    .content img{
+    .content li{
     width: 48.2vh;
-    margin:5px 0.6vh 5px;
+}
+    .content img{
+    margin:0 0.6vh 0;
     aspect-ratio: 16:9;
 }
 }
 @media(max-width:375px){
-    .content img{
+    .content li{
     width: 98vh;
-    margin:5px 1vh 5px;
+}
+    .content img{
+    margin:0 1vh 0;
     aspect-ratio: 16:9;
 }
 }
