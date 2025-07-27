@@ -46,15 +46,8 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-*{
-    box-sizing: border-box;
-}
-h1{
-    font-size: 24px;
-    font-weight: bold;
-}
 *,*::after,*::before{
-  outline: 1px solid #000;
+  /*outline: 1px solid #000;*/
   box-sizing:border-box;
 }
 .header{
