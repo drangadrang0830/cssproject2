@@ -68,15 +68,12 @@ h1{
     width: 100%;  
     height: auto;
     margin:0 0.25% 0;
-    aspect-ratio: 16:09;
+    aspect-ratio: 16/09;
     border:3px solid #000;
 }
 @media(max-width:768px){
     .content li{
     width: 45%;
-}
-    .content img{
-    margin:0 1% 0;
 }
 }
 @media(max-width:375px){
